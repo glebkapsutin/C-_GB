@@ -1,17 +1,29 @@
 ﻿using System;
-using System.Net.NetworkInformation;
+using System.Data;
+using System.Net.Http;
+using System.Threading;
 
 class Program
-{   
+{
     static void Main(string[] args)
     {
-       if (args.Length == 0)
-       {
-        Chat.Server();
-       }
-        else{
-            Chat.Client(args[0]);
-        }
 
     }
+
+    static void LoadUrl(string url)
+    {
+        using (HttpClient client = new HttpClient())
+        {
+            try
+            {
+                string content = client.GetStringAsync(url).Result;
+                Console.WriteLine($"URL: {url}\nСодержимое: {content.Substring(0, 100)}\n");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Не удалось загрузить {url}: {ex.Message}");
+            }
+        }
+    }
+    
 }

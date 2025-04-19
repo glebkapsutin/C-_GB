@@ -12,3 +12,4 @@
 /Users/glebkapustin/Downloads/testcods/obj/Debug/net8.0/testcods.pdb
 /Users/glebkapustin/Downloads/testcods/obj/Debug/net8.0/testcods.genruntimeconfig.cache
 /Users/glebkapustin/Downloads/testcods/obj/Debug/net8.0/ref/testcods.dll
+/Users/glebkapustin/Downloads/testcods/obj/Debug/net8.0/testcods.sourcelink.json

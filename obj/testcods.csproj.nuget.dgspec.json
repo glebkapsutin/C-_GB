@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/glebkapustin/Downloads/testcods/testcods.csproj": {}
+    "/Users/glebkapustin/Desktop/Cods/ApplicationCods/testcods.csproj": {}
   },
   "projects": {
-    "/Users/glebkapustin/Downloads/testcods/testcods.csproj": {
+    "/Users/glebkapustin/Desktop/Cods/ApplicationCods/testcods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/glebkapustin/Downloads/testcods/testcods.csproj",
+        "projectUniqueName": "/Users/glebkapustin/Desktop/Cods/ApplicationCods/testcods.csproj",
         "projectName": "testcods",
-        "projectPath": "/Users/glebkapustin/Downloads/testcods/testcods.csproj",
+        "projectPath": "/Users/glebkapustin/Desktop/Cods/ApplicationCods/testcods.csproj",
         "packagesPath": "/Users/glebkapustin/.nuget/packages/",
-        "outputPath": "/Users/glebkapustin/Downloads/testcods/obj/",
+        "outputPath": "/Users/glebkapustin/Desktop/Cods/ApplicationCods/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/glebkapustin/.nuget/NuGet/NuGet.Config"
@@ -20,6 +20,7 @@
           "net8.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
