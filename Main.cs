@@ -2,12 +2,17 @@
 using System.Data;
 using System.Net.Http;
 using System.Threading;
+using Microsoft.VisualBasic;
 
 class Program
 {
     static void Main(string[] args)
     {
-
+        int[] mass = [1,2,3,4,5];
+        int a = 4;
+        Solution b = new Solution();
+        Console.WriteLine(b.RemoveElement(mass,a));
+        
     }
 
     static void LoadUrl(string url)
