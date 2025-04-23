@@ -55,5 +55,28 @@ public class Solution
         return k;
 
     }
-    
+    public int MajorityElement(int[] nums)
+    {
+        int n = nums.Length;
+        int k = 1;
+        int candidate = nums[0];
+        for (int i = 0; i < n; i++)
+        {
+            if (nums[i] == candidate)
+            {
+                k++;
+            }
+            if (nums[i]!= candidate)
+            {
+                k--;
+            }
+            if (k == 0)
+            {
+                candidate = nums[i];
+                k=1;
+            }
+        }
+        return candidate;
+    }
+
 }

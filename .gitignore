@@ -1,0 +1,67 @@
+# Сборка и временные файлы
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.csproj.bak
+*.csproj.user
+*.sln.docstates
+
+# Папки Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Файлы NuGet
+packages/
+*.nupkg
+!packages/build/
+
+# Файлы отладки и логи
+*.log
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.obj
+*.iobj
+*.ipdb
+*.db
+
+# Файлы кэша и временные файлы
+*.cache
+*.tmp
+*.temp
+*.bak
+*~
+
+# Папки и файлы для тестов
+TestResults/
+*.trx
+*.coverage
+*.testsettings
+
+# Файлы конфигурации, которые не должны попадать в репозиторий
+appsettings.Development.json
+appsettings.*.json
+*.config.*.local
+*.secret
+
+# Среды разработки и CI/CD
+Dockerfile.local
+*.env
+.env.local
+.env.*.local
+
+# Папки и файлы, связанные с macOS
+.DS_Store
+
+# Папки и файлы, связанные с Windows
+Thumbs.db
+desktop.ini
+
+# Файлы публикации
+publish/
+*.pubxml
+*.pubxml.user
